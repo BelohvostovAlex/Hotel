@@ -12,6 +12,7 @@ import {Routes, Route} from 'react-router-dom'
 function App() {
   return (
     <>
+
     <Navbar />
       <Routes>
         <Route path={'/'} element={<Home />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path={'/rooms/:slug'} element={<SingleRoom />} />
         <Route path="*" element={<Error/>}/>
       </Routes>
+ 
     </>
   );
 }

@@ -1,0 +1,19 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "name": "single economy",
+            "slug": "single-economy",
+            "type": "single",
+            "price": 100,
+            "size": 200,
+            "capacity": 1,
+            "pets": false,
+            "breakfast": false,
+            "featured": false,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
+            "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
+            "image": "lel"
+        }
+    ]
+}
