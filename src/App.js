@@ -1,5 +1,5 @@
-import './App.css';
 import React from 'react';
+import './scss/App.scss'
 
 import {Home} from './pages/Home'
 import {Rooms} from './pages/Rooms'

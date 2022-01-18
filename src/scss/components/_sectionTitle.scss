@@ -1,0 +1,19 @@
+
+.section-title {
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 25px;
+    h4 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        text-transform: capitalize;
+    }
+    div {
+        height: 4px;
+        width: 60%;
+        margin: 0 auto;
+        background: black;
+    }
+}
