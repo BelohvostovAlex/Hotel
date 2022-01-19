@@ -10,10 +10,55 @@
             "capacity": 1,
             "pets": false,
             "breakfast": false,
+            "featured": true,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
+            "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
+            "image": "/images/room1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "single economy",
+            "slug": "single-economy",
+            "type": "single",
+            "price": 120,
+            "size": 220,
+            "capacity": 1,
+            "pets": true,
+            "breakfast": false,
+            "featured": true,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
+            "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
+            "image": "/images/room7.jpg"
+        },
+        {
+            "id": 3,
+            "name": "single economy",
+            "slug": "single-economy",
+            "type": "single",
+            "price": 130,
+            "size": 230,
+            "capacity": 1,
+            "pets": true,
+            "breakfast": true,
+            "featured": true,
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
+            "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
+            "image": "/images/room3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "single economy",
+            "slug": "single-economy",
+            "type": "single",
+            "price": 140,
+            "size": 240,
+            "capacity": 1,
+            "pets": false,
+            "breakfast": true,
             "featured": false,
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
             "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
-            "image": "lel"
+            "image": "/images/room4.jpg"
         }
     ]
 }

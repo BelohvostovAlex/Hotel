@@ -1,5 +1,5 @@
 
-.btn-primary {
+.btn-primary, .btn-featured {
     display: inline-block;
     background: transparent;
     color: whitesmoke;
@@ -12,4 +12,13 @@
     &:hover {
         background: black;
     }
+}
+
+.btn-featured {
+    background: black;
+    color: white;
+    font-size: 14px;
+    opacity: 0;
+    border: none;
+    transition-delay: .2s;
 }

@@ -4,9 +4,9 @@ import { Banner } from '../components/Banner';
 import { Hero } from '../components/Hero';
 import { Button } from '../components/Button';
 import { Services } from '../components/Services';
+import { FeaturedRooms } from '../components/FeaturedRooms';
 
 import {useAction} from '../hooks/useAction'
-import { useSelector } from 'react-redux';
 
 export const Home = () => {
   const {fetchRooms} = useAction()
@@ -14,9 +14,6 @@ export const Home = () => {
   React.useEffect(() => {
     fetchRooms()
   }, [])
-
-  const {rooms} = useSelector(state => state.roomsReducer)
-  console.log(rooms)
   
   
   return (
@@ -27,6 +24,7 @@ export const Home = () => {
         </Banner>
       </Hero>
       <Services />
+      <FeaturedRooms />
     </>
   );
 };

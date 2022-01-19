@@ -31,7 +31,7 @@ export const Navbar = () => {
             <ul className={isOpen ? 'navbar-links show' : 'navbar-links'}>
               {menuLinks.map((menuLink) => (
                 <li key={menuLink.path}>
-                  <Link to={menuLink.path}>{menuLink.title}</Link>
+                  <Link to={menuLink.path} onClick={() => setOpen(false)}>{menuLink.title}</Link>
                 </li>
               ))}
             </ul>
