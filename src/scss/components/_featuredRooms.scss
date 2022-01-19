@@ -1,6 +1,7 @@
 
 
 .featured {
+    margin-bottom: 30px;
     &-wrapper {
         display: flex;
         align-items: center;
@@ -29,6 +30,8 @@
         }
         &:hover {
             transform: scale(1.05);
+            background-color: black;
+            border-radius: 10px;
         }
         &:hover .btn-featured {
             opacity: 1;
