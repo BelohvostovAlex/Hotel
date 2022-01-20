@@ -6,16 +6,15 @@ import { Button } from '../components/Button';
 import { Services } from '../components/Services';
 import { FeaturedRooms } from '../components/FeaturedRooms';
 
-import {useAction} from '../hooks/useAction'
+import { useAction } from '../hooks/useAction';
 
 export const Home = () => {
-  const {fetchRooms} = useAction()
- 
+  const { fetchRooms } = useAction();
+
   React.useEffect(() => {
-    fetchRooms()
-  }, [])
-  
-  
+    fetchRooms();
+  }, []);
+
   return (
     <>
       <Hero hero="defaultHero">
