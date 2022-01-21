@@ -13,7 +13,8 @@
             "featured": true,
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
             "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
-            "image": "/images/room1.jpg"
+            "image": "/images/room1.jpg",
+            "roomImages": ["/images/roomImages/1.jpg","/images/roomImages/2.jpg","/images/roomImages/3.jpg"]
         },
         {
             "id": 2,
@@ -28,7 +29,8 @@
             "featured": true,
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
             "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
-            "image": "/images/room7.jpg"
+            "image": "/images/room7.jpg",
+            "roomImages": ["/images/roomImages/1.jpg","/images/roomImages/2.jpg","/images/roomImages/3.jpg"]
         },
         {
             "id": 3,
@@ -43,7 +45,8 @@
             "featured": true,
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
             "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
-            "image": "/images/room3.jpg"
+            "image": "/images/room3.jpg",
+            "roomImages": ["/images/roomImages/1.jpg","/images/roomImages/2.jpg","/images/roomImages/3.jpg"]
         },
         {
             "id": 4,
@@ -58,7 +61,8 @@
             "featured": false,
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
             "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
-            "image": "/images/room3.jpg"
+            "image": "/images/room3.jpg",
+            "roomImages": ["/images/roomImages/1.jpg","/images/roomImages/2.jpg","/images/roomImages/3.jpg"]
         },
         {
             "id": 5,
@@ -73,7 +77,8 @@
             "featured": false,
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque soluta praesentium animi aliquid, amet necessitatibus doloribus veniam voluptas vero eaque cum et aliquam ratione sequi reiciendis, sit enim! Voluptate minima dolores magni ea odit non!",
             "extras": ["Plush pillows and breathale bed linens", "Soft, bath towels", "Full-sized, pH-balanced toletries", "Complementary refreshments", "Internet", "Comfortable beds"],
-            "image": "/images/room4.jpg"
+            "image": "/images/room4.jpg",
+            "roomImages": ["/images/roomImages/1.jpg","/images/roomImages/2.jpg","/images/roomImages/3.jpg"]
         }
     ]
 }
